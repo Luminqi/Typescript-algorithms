@@ -146,14 +146,4 @@ class BST<T extends Node> {
 
 export {Node, BST}
 
-// test
-// let tree = new BST<Node>()
-// let root = tree.create([1,2,3,4])
-// console.log(root);
-// tree.inorder_traverse(console.log);
-// let node = tree.search(4);
-// tree.delete(node);
-// console.log(tree);
-// tree.inorder_traverse(console.log);
-// console.log("!");
 

@@ -135,10 +135,3 @@ class RBT<T extends RB_Node> extends BST<T> {
     x.parent = y
   }
 }
-
-//test
-let tree = new RBT<RB_Node>();
-let root = tree.create([1,2,3,4]);
-console.log(root);
-tree.inorder_traverse(console.log);
-console.log("!")
