@@ -1,4 +1,4 @@
-export function countingSort (a: number[], k: number) {
+export function countingSort (a: number[], k: number): number[] {
   let l = a.length,
     b = [], 
     c = [];
